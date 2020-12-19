@@ -82,7 +82,7 @@ class Student:
         Detail_Frame = Frame(self.root, bd=4, relief=RIDGE, bg="white")
         Detail_Frame.place(x=500, y=100, width=830, height=580)
 
-        lbl_search = Label(Detail_Frame, text="Search By", bg="white", fg="white", font=("times new roman", 20, "bold"))
+        lbl_search = Label(Detail_Frame, text="Search By", bg="white", fg="black", font=("times new roman", 20, "bold"))
         lbl_search.grid(row=0, column=0, pady=10, padx=20, sticky="w")
 
         combo_search = ttk.Combobox(Detail_Frame,width=10 ,textvariable=self.search_by,font=("times new roman", 13, "bold"), state='readonly')
